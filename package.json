@@ -1,7 +1,6 @@
 {
   "name": "trustfilesharing",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
@@ -11,7 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
+    "express-rate-limit": "^7.3.0",
+    "helmet": "^7.1.0",
     "nodemon": "^3.1.2",
     "socket.io": "^4.7.5"
-  }
+  },
+  "description": ""
 }
